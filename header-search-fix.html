@@ -1,0 +1,17 @@
+<script>
+// Fix quarto-search.js fetch base for nested pages:
+// It relies on meta[name="quarto:offset"]. For deep pages this can end up wrong.
+// Force it to the site root relative to current page.
+(function () {
+  const offsetMeta = document.querySelector('meta[name="quarto:offset"]');
+  if (!offsetMeta) return;
+  // Root is always two levels up? Not safe.
+  // Instead compute based on pathname depth.
+  const path = window.location.pathname.replace(/\\/g,'/');
+  const parts = path.split('/').filter(Boolean);
+  // For .../content/XX/YY.html => root needs to go up `parts.length-1`
+  const up = Math.max(0, parts.length - 1);
+  offsetMeta.setAttribute('content', Array(up + 1).join('../') || './');
+})();
+</script>
+

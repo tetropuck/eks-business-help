@@ -1,0 +1,87 @@
+project:
+  type: website
+
+website:
+  title: "Справочный центр ЭКС.Бизнес"
+
+  navbar:
+    left:
+      - href: content/15-faq/faq.qmd
+        text: FAQ
+      - href: contact.qmd
+        text: Обратная связь
+
+  search:
+    location: navbar
+    type: overlay
+
+  sidebar:
+    style: docked
+    contents:
+
+      - href: content/01-workspace/setup-workspace.qmd
+        text: "Настройка рабочего места"
+
+      - href: content/02-prices/goods-prices-stocks-delivery.qmd
+        text: "Цена товара, остатки и сроки доставки"
+
+      - href: content/03-buttons/useful-buttons.qmd
+        text: "Полезные кнопки"
+
+      - href: content/04-search/product-finding.qmd
+        text: "Подбор товаров"
+
+      - href: content/05-import/mass-fill-search-template.qmd
+        text: "Массовый поиск товаров"
+
+      - href: content/06-product-card/product-card.qmd
+        text: "Карточка товара"
+
+      - section: "Корзина"
+        contents:
+          - href: content/07-cart/order-placement.qmd
+            text: "Корзина"
+          - href: content/16-archive/archive.qmd
+            text: "Архив и черновики"
+          - href: content/17-analog-replace/analog-replace.qmd
+            text: "Замена аналогами"
+
+      - section: "Работа с заказом"
+        contents:
+          - href: content/08-orders/order-management.qmd
+            text: "Работа с заказом"
+          - href: content/18-action-button/action-button.qmd
+            text: "Кнопка «Действия»"
+          - href: content/10-invoices/invoice-creation.qmd
+            text: "Работа со счетом"
+          - href: content/09-reservations/reservations.qmd
+            text: "Бронирование товара"
+          - href: content/11-goods-movement/product-movement.qmd
+            text: "Заказные позиции"
+          - href: content/12-shipments/shipments.qmd
+            text: "Отгрузки"
+
+      - href: content/13-profile/profile.qmd
+        text: "Профиль"
+
+      - href: content/14-employees/employees.qmd
+        text: "Подключение сотрудников"
+
+      - href: content/19-integration/integration.qmd
+        text: "Обмен данными"
+
+      - href: content/15-faq/faq.qmd
+        text: "Часто задаваемые вопросы"
+
+      - href: contact.qmd
+        text: "Обратная связь"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    number-sections: false
+    smooth-scroll: true
+    lightbox: true
+    

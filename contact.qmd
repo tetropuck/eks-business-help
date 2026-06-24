@@ -1,0 +1,15 @@
+## Не нашли ответ?
+
+Оставьте контакты и мы с вами свяжемся
+
+<div class="contact-card">
+  <form class="contact-form">
+    <label for="name">Имя</label>
+    <input type="text" id="name" name="name" placeholder="Например, Иван" required />
+    <label for="phone">Телефон</label>
+    <input type="tel" id="phone" name="phone" placeholder="+7 999 123-45-67" required />
+    <label for="message">Сообщение</label>
+    <textarea id="message" name="message" rows="5" placeholder="Опишите ваш вопрос" required></textarea>
+    <button type="submit">Отправить заявку</button>
+  </form>
+</div>

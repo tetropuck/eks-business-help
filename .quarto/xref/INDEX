@@ -1,0 +1,173 @@
+{
+  "about.qmd": {
+    "about.html": "742c0944"
+  },
+  "index.qmd": {
+    "index.html": "654603c5"
+  },
+  "instructions/1.setup_workspace.qmd": {
+    "1.setup_workspace.html": "5e52a671"
+  },
+  "instructions/registration.qmd": {
+    "registration.html": "cdf8eb91"
+  },
+  "contact.qmd": {
+    "contact.html": "fe159663"
+  },
+  "section-01.qmd": {
+    "section-01.html": "270094af"
+  },
+  "section-02.qmd": {
+    "section-02.html": "7769aeab"
+  },
+  "section-03.qmd": {
+    "section-03.html": "4dbb0e5e"
+  },
+  "section-04.qmd": {
+    "section-04.html": "6d600799"
+  },
+  "section-05.qmd": {
+    "section-05.html": "c8c31f95"
+  },
+  "section-06.qmd": {
+    "section-06.html": "7c3a8cc9"
+  },
+  "section-07.qmd": {
+    "section-07.html": "7d9d8189"
+  },
+  "section-08.qmd": {
+    "section-08.html": "8e343dfb"
+  },
+  "section-09.qmd": {
+    "section-09.html": "7270585b"
+  },
+  "section-10.qmd": {
+    "section-10.html": "c6e09a5e"
+  },
+  "section-11.qmd": {
+    "section-11.html": "97695ad6"
+  },
+  "section-12.qmd": {
+    "section-12.html": "2fcef48c"
+  },
+  "section-13.qmd": {
+    "section-13.html": "869aab38"
+  },
+  "section-14.qmd": {
+    "section-14.html": "fe5d16df"
+  },
+  "section-15.qmd": {
+    "section-15.html": "245d5f43"
+  },
+  "employees.qmd": {
+    "employees.html": "73dc966d"
+  },
+  "faq.qmd": {
+    "faq.html": "aeb29512"
+  },
+  "goods-prices-stocks-delivery.qmd": {
+    "goods-prices-stocks-delivery.html": "6c6f024d"
+  },
+  "invoice-creation.qmd": {
+    "invoice-creation.html": "af3ebafe"
+  },
+  "mass-fill-search-template.qmd": {
+    "mass-fill-search-template.html": "0dddc880"
+  },
+  "order-management.qmd": {
+    "order-management.html": "8b35a351"
+  },
+  "order-placement.qmd": {
+    "order-placement.html": "5cc9b594"
+  },
+  "product-card.qmd": {
+    "product-card.html": "9681ebe8"
+  },
+  "product-finding.qmd": {
+    "product-finding.html": "dea3c2d4"
+  },
+  "product-movement.qmd": {
+    "product-movement.html": "553ecd14"
+  },
+  "profile.qmd": {
+    "profile.html": "ffdbb86b"
+  },
+  "reservations.qmd": {
+    "reservations.html": "be7ec608"
+  },
+  "setup-workspace.qmd": {
+    "setup-workspace.html": "2d507dfa"
+  },
+  "shipments.qmd": {
+    "shipments.html": "94dd4df7"
+  },
+  "useful-buttons.qmd": {
+    "useful-buttons.html": "7beddc93"
+  },
+  "content/01-workspace/setup-workspace.qmd": {
+    "setup-workspace.html": "c9e6fb2f"
+  },
+  "content/02-prices/goods-prices-stocks-delivery.qmd": {
+    "goods-prices-stocks-delivery.html": "431cda8e"
+  },
+  "content/02-prices/prices.qmd": {
+    "prices.html": "7c924b61"
+  },
+  "content/03-buttons/useful-buttons.qmd": {
+    "useful-buttons.html": "b25e603b"
+  },
+  "content/04-search/product-finding.qmd": {
+    "product-finding.html": "ef8690c5"
+  },
+  "content/05-import/mass-fill-search-template.qmd": {
+    "mass-fill-search-template.html": "06bae7e3"
+  },
+  "content/06-product-card/product-card.qmd": {
+    "product-card.html": "3b0380aa"
+  },
+  "content/07-cart/order-placement.qmd": {
+    "order-placement.html": "1e9b293a"
+  },
+  "content/08-orders/invoice-creation.qmd": {
+    "invoice-creation.html": "f30f2e8a"
+  },
+  "content/13-profile/profile.qmd": {
+    "profile.html": "a8315efb"
+  },
+  "content/14-employees/employees.qmd": {
+    "employees.html": "0db23ad4"
+  },
+  "content/15-faq/faq.qmd": {
+    "faq.html": "97963295"
+  },
+  "content/08-orders/order-management.qmd": {
+    "order-management.html": "3b44d697"
+  },
+  "content/09-reservations/reservations.qmd": {
+    "reservations.html": "6965d5ae"
+  },
+  "content/10-invoices/invoice-creation.qmd": {
+    "invoice-creation.html": "68f65d5b"
+  },
+  "content/11-goods-movement/product-movement.qmd": {
+    "product-movement.html": "fb3e8d37"
+  },
+  "content/12-shipments/shipments.qmd": {
+    "shipments.html": "22946581"
+  },
+  "content/16-archive/archive.qmd": {
+    "archive.html": "bc9364a4"
+  },
+  "content/17-analog-replace/analog-replace.qmd": {
+    "analog-replace.html": "65447bab"
+  },
+  "content/18-action-button/action-button.qmd": {
+    "action-button.html": "cd5889bf"
+  },
+  "content/19-integration/integration.qmd": {
+    "integration.html": "9b7c358a"
+  },
+  "TODO.md": {
+    "TODO.html": "7221f70e"
+  }
+}

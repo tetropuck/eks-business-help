@@ -1,0 +1,124 @@
+
+```{=html}
+<section class="kb-hero">
+  <div class="kb-hero-badge">Справочный центр</div>
+
+  <h1>Нужна помощь?</h1>
+
+  <p class="kb-hero-subtitle">
+    Найдите инструкцию по ЭКС.Бизнес: поиск товаров, корзина, заказы, счета, бронирование и документы.
+  </p>
+
+<button class="kb-main-search" type="button" onclick="openQuartoSearch()">
+  <span class="kb-search-icon">⌕</span>
+  <span class="kb-search-placeholder">Открыть поиск по базе знаний</span>
+</button>
+
+  <div class="kb-quick-links">
+    <a href="content/04-search/product-finding.html">Поиск товара</a>
+    <a href="content/05-import/mass-fill-search-template.html">Массовая заливка</a>
+    <a href="content/07-cart/order-placement.html">Оформление заказа</a>
+    <a href="content/15-faq/faq.html">FAQ</a>
+  </div>
+</section>
+
+<section class="kb-section">
+  <div class="kb-section-title">
+    <h2>Популярные статьи</h2>
+    <p>Самые частые сценарии работы с сайтом</p>
+  </div>
+
+  <div class="kb-card-grid">
+    <a class="kb-feature-card" href="content/04-search/product-finding.html">
+      <span class="kb-card-icon">🔎</span>
+      <strong>Подбор товаров</strong>
+      <span>Поиск по названию, артикулу, коду и категориям.</span>
+    </a>
+
+    <a class="kb-feature-card" href="content/05-import/mass-fill-search-template.html">
+      <span class="kb-card-icon">📄</span>
+      <strong>Массовый поиск товаров</strong>
+      <span>Загрузка спецификации из Excel или списком.</span>
+    </a>
+
+    <a class="kb-feature-card" href="content/07-cart/order-placement.html">
+      <span class="kb-card-icon">🛒</span>
+      <strong>Корзина</strong>
+      <span>Добавление товаров, проверка наличия и оформление заказа.</span>
+    </a>
+
+    <a class="kb-feature-card" href="content/08-orders/order-management.html">
+      <span class="kb-card-icon">📦</span>
+      <strong>Работа с заказом</strong>
+      <span>Статусы, действия, счета, бронирование и повтор заказа.</span>
+    </a>
+  </div>
+</section>
+
+<section class="kb-section">
+  <div class="kb-section-title">
+    <h2>Как работать со справкой</h2>
+    <p>Простой порядок действий</p>
+  </div>
+
+  <div class="kb-steps">
+    <div class="kb-step">
+      <span>1</span>
+      <div>
+        <strong>Введите запрос</strong>
+        <p>Например: «аналоги», «счет», «корзина», «остатки».</p>
+      </div>
+    </div>
+
+    <div class="kb-step">
+      <span>2</span>
+      <div>
+        <strong>Откройте статью</strong>
+        <p>В каждой статье есть шаги, скриншоты и пояснения.</p>
+      </div>
+    </div>
+
+    <div class="kb-step">
+      <span>3</span>
+      <div>
+        <strong>Если вопрос остался</strong>
+        <p>Перейдите в раздел обратной связи и оставьте заявку.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+function openQuartoSearch() {
+  const searchButton = document.querySelector(
+    "#quarto-search button, .aa-DetachedSearchButton, .quarto-search-button, [title='Search']"
+  );
+
+  if (window.quartoOpenSearch) {
+    window.quartoOpenSearch();
+    return;
+  }
+
+  if (searchButton) {
+    searchButton.click();
+  }
+}
+</script>
+
+<script>
+function openQuartoSearch() {
+  const searchButton = document.querySelector(
+    "#quarto-search button, .aa-DetachedSearchButton, .quarto-search-button, [title='Search']"
+  );
+
+  if (window.quartoOpenSearch) {
+    window.quartoOpenSearch();
+    return;
+  }
+
+  if (searchButton) {
+    searchButton.click();
+  }
+}
+</script>
+```
