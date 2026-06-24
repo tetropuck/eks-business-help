@@ -1,0 +1,27 @@
+# ЭКС.Бизнес Knowledge Base
+
+Документационный портал для платформы ЭКС.Бизнес, разработанный на Quarto.
+
+## Что реализовано
+
+- Кастомный UI поверх Quarto
+- Адаптивный layout
+- Sidebar-навигация
+- Полнотекстовый поиск
+- Страницы инструкций с изображениями
+- Кастомная главная страница
+- Форма обратной связи
+
+## Stack
+
+- Quarto
+- HTML
+- CSS
+- YAML
+- Markdown
+
+## Features
+
+- Responsive design
+- Knowledge base architecture
+- Custom documentation UX
