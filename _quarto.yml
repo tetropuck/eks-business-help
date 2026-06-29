@@ -3,6 +3,7 @@ project:
 
 website:
   title: "Справочный центр ЭКС.Бизнес"
+  favicon: favicon.png
 
   navbar:
     left:
@@ -10,6 +11,7 @@ website:
         text: FAQ
       - href: contact.qmd
         text: Обратная связь
+
 
   search:
     location: navbar
@@ -73,8 +75,6 @@ website:
       - href: content/15-faq/faq.qmd
         text: "Часто задаваемые вопросы"
 
-      - href: contact.qmd
-        text: "Обратная связь"
 
 format:
   html:
